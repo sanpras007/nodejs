@@ -4,9 +4,9 @@ const Schema = require('mongoose').Schema;
 
 const usersSchema = new Schema({
     "name": String,
-    "age": Number,
     "phone":Number,
-    "active": Boolean,
+    "emial": String,
+    "password":String,
 });
 
 const usersModel = mongoose.model("users",usersSchema);

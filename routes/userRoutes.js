@@ -1,7 +1,5 @@
 const routes = require('express').Router();
 
-// const userControllers = require('../controllers/userControllers');
-
 const userControllers = require('../controllers/userExpressControllers');
 
 routes.get('/readuser', userControllers.readuser);
